@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Load the dataset
-file_path = "C:\\Users\\Dell\\OneDrive\\Desktop\\3903426.csv"
+file_path = "dataset.csv"
 data = pd.read_csv(file_path)
 
 # Step 1: Handle Missing Data
